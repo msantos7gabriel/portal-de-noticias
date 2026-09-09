@@ -20,21 +20,21 @@ const dataFormatada2 = new Intl.DateTimeFormat("pt-BR", {
 
 const noticiaPrimária = [
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Secretaria de Administração",
     categoria: "politica",
     titulo:
       "Prefeitura de Guanambi publica nesta terça (8), edital de convocação de profissionais do magistério com direito a precatórios do FUNDEF para",
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Notícia principal 2",
     categoria: "economia",
     titulo:
       "Guanambi amplia ações de incentivo ao comércio local e geração de emprego",
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Notícia principal 3",
     categoria: "saúde",
     titulo:
@@ -44,7 +44,7 @@ const noticiaPrimária = [
 
 const noticiasSecundarias = [
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Secretaria de Administração",
     titulo:
       "IF Baiano abre inscrições para mais de 1,8 mil vagas em cursos técnicos gratuitos",
@@ -52,7 +52,7 @@ const noticiasSecundarias = [
       "Inscrições vão de 31 de agosto a 16 de outubro. Cursos são da modalidade subsequente, voltados para quem tem o Ensino Médio completo.",
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Notícia secundária",
     titulo:
       "Prefeitura anuncia novos projetos para infraestrutura e mobilidade urbana",
@@ -60,7 +60,7 @@ const noticiasSecundarias = [
       "A administração pública deve ampliar ações em sinalização, mobilidade e manutenção de vias em áreas prioritárias da cidade.",
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Notícia secundária",
     titulo:
       "Comércio local registra aumento na procura por serviços durante o mês",
@@ -68,7 +68,7 @@ const noticiasSecundarias = [
       "Setor de varejo e serviços observa maior movimentação em bairros centrais e regiões de expansão urbana.",
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Saúde municipal",
     titulo:
       "Campanha de vacinação contra a gripe é prorrogada até o fim do mês",
@@ -76,7 +76,7 @@ const noticiasSecundarias = [
       "A secretaria de saúde informou que os postos de atendimento continuarão aplicando as doses para garantir a imunização de toda a comunidade.",
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Evento cultural",
     titulo:
       "Festival de artes e cultura reúne centenas de moradores na praça principal",
@@ -87,42 +87,42 @@ const noticiasSecundarias = [
 
 const ultimasNoticias = [
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Prefeitura de Guanambi",
     titulo:
       "Prefeitura de Guanambi fará leilão online de 118 lotes de veículos e sucatas; lances começam em R$ 29,25",
     data: dataFormatada2,
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Calor na Bahia",
     titulo:
       "Calor bate recordes do ano em cidades da Bahia; temperaturas passam de 39°C e Vitória da Conquista registra granizo",
     data: dataFormatada2,
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Reforma de imóveis",
     titulo:
       "Prefeitura de Guanambi lança Refis 2026 com descontos de até 100% em juros e multas",
     data: dataFormatada2,
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Vagas de emprego",
     titulo:
       "Vitória da Conquista tem 50 vagas de emprego abertas nesta terça-feira",
     data: dataFormatada2,
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "SineBahia",
     titulo:
       "SineBahia oferece vaga com salário de R$ 2,9 mil em Guanambi nesta sexta-feira",
     data: dataFormatada2,
   },
   {
-    imagem: "/src/img/imagem_noticia.jpg",
+    imagem: "./src/img/imagem_noticia.jpg",
     alt: "Emprego em Vitória da Conquista",
     titulo:
       "SineBahia oferece 70 vagas de emprego em Vitória da Conquista nesta terça-feira",
