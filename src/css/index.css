@@ -1,0 +1,269 @@
+@import url(globals.css);
+@import url(variables.css);
+
+/* Container  */
+.container {
+  font-family: var(--fonte-familia);
+  min-width: 100%;
+}
+
+/* Socials */
+.socials {
+  min-width: 100vw;
+  min-height: 60px;
+  background-color: var(--cor-primaria);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.socials ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 20vh;
+  padding: 0 5vh 0 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  filter: invert(100%) brightness(200%);
+  transition-duration: 0.5s;
+}
+
+.icons:hover {
+  opacity: 50%;
+  transition-duration: 0.1s;
+}
+
+/* Header  */
+header {
+  display: grid;
+  place-items: center;
+  margin: 0 10vh;
+  padding-bottom: 5vh;
+}
+
+header .header-logo {
+  padding: 2.5vh;
+}
+
+nav {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  min-width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav_bar_links {
+  color: black;
+  transition:
+    color 0.1s ease-in-out,
+    transform 0.1s ease-in-out;
+}
+.nav_bar_links:hover {
+  color: var(--cor-primaria);
+  transform: scale(1.1);
+}
+
+/* Main */
+main {
+  display: grid;
+  place-items: center;
+  margin: 0 10vh 5vh;
+}
+
+main .titulo {
+  margin-bottom: 5vh;
+}
+
+/* Noticia Principal */
+.noticia_principal {
+  width: min(100%, 90vh);
+  background: #f2f2f2;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  margin-bottom: 5vh;
+}
+
+.imagem_noticia {
+  position: relative;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.imagem_noticia img {
+  transition: transform 0.2s ease-in-out;
+  display: block;
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.categoria {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  background: var(--cor-primaria);
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 18px;
+  font-size: var(--fonte-pequena);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  overflow-wrap: break-word;
+}
+
+.informacoes {
+  padding: 20px 22px 18px;
+}
+
+.informacoes h2 {
+  margin: 0;
+  font-size: clamp(var(--fonte-subtitulo), 2.5vw, var(--fonte-titulo));
+  line-height: 1.2;
+  font-weight: 700;
+  color: #121212;
+}
+
+.informacoes time {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--cor-cinza);
+  font-size: var(--fonte-pequena);
+}
+
+/* Noticia Secundaria */
+.noticia_secundaria {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.2fr) minmax(0, 1.8fr);
+  gap: 20px;
+  width: min(100%, 90vh);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  border-top: 1px solid var(--border-color);
+  align-items: center;
+}
+
+.noticia_secundaria .imagem_noticia {
+  width: 100%;
+  height: 220px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.noticia_secundaria .imagem_noticia img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.noticia_secundaria .informacoes {
+  padding: 0;
+}
+
+.noticia_secundaria .informacoes h2 {
+  margin: 0;
+  font-size: clamp(1.1rem, 2vw, 1.8rem);
+  line-height: 1.3;
+}
+
+.noticia_secundaria .informacoes p {
+  margin: 14px 0 0 0;
+  font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+  line-height: 1.5;
+}
+
+.ultimas_noticias {
+  width: min(100%, 90vh);
+  margin-top: 5vh;
+}
+
+.ultimas_noticias_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 24px;
+}
+
+.noticia_ultimas {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.noticia_ultimas .imagem_noticia {
+  width: 100%;
+  height: 120px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.noticia_ultimas .imagem_noticia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noticia_ultimas .informacoes {
+  padding: 0;
+}
+
+.noticia_ultimas .informacoes h3 {
+  margin: 0;
+  font-size: clamp(1rem, 1.8vw, 1.6rem);
+  line-height: 1.3;
+  color: #121212;
+}
+
+.noticia_ultimas .informacoes time {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--cor-cinza);
+  font-size: 0.9rem;
+}
+
+/* Mapa */
+
+.mapa {
+  display: grid;
+  place-items: center;
+  margin: 0 10vh 5vh;
+}
+.mapa h2 {
+  padding-bottom: 2.5vh;
+}
+.mapa iframe {
+  border-radius: 12px;
+}
+/* Footer */
+
+footer {
+  min-width: 100vw;
+  min-height: 60px;
+  background-color: var(--cor-primaria);
+  display: flex;
+}
