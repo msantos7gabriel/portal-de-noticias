@@ -1,0 +1,14 @@
+:root {
+  --cor-primaria: #003875;
+  --cor-secundaria: #ffa700;
+  --cor-terciaria: #ef6c00;
+  --cor-cinza: #5d5d5d;
+  --border-color: rgba(128, 128, 128, 0.25);
+
+  /* Texto */
+  --fonte-familia: Arial, Helvetica, sans-serif;
+  --fonte-titulo: 2rem;
+  --fonte-subtitulo: 1.5rem;
+  --fonte-texto: 1rem;
+  --fonte-pequena: 0.875rem;
+}

@@ -1,0 +1,4 @@
+https://agenciasertao.com/ - Header e nav bar 
+https://g1.globo.com/ba/bahia/cidade/guanambi/ disposição de noticias e footer
+https://www.alocidade.com.br/ - footer 
+https://www.guanambi.ba.gov.br/noticias/ - iframe no final da pagina
