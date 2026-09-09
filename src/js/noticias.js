@@ -36,7 +36,7 @@ const noticiaPrimária = [
   {
     imagem: "/src/img/imagem_noticia.jpg",
     alt: "Notícia principal 3",
-    categoria: "saude",
+    categoria: "saúde",
     titulo:
       "Atendimento em saúde ganha reforço com novas unidades de apoio à população",
   },
