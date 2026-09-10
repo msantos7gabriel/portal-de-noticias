@@ -137,6 +137,7 @@ listaNoticias.innerHTML += `
 `;
 
 listaNoticias.innerHTML += noticiaPrimária
+  .slice(0, 1)
   .map(
     (noticia) => `
       <article class="noticia_principal">
