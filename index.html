@@ -26,7 +26,11 @@
 
     <!-- LINKS -->
     <link rel="stylesheet" href="./src/css/index.css" />
-    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.ico"
+      type="image/x-icon"
+    />
     <title>
       Portal Notícia de Guanambi — Últimas notícias de Guanambi e região
     </title>
@@ -75,30 +79,26 @@
       </div>
       <header>
         <div class="header-logo">
-          <img
-            loading="lazy"
-            src="./src/img/logo.png"
-            alt="Logo do site"
-          />
+          <img loading="lazy" src="./src/img/logo.png" alt="Logo do site" />
         </div>
         <nav>
           <ul>
-            <li><a class="nav_bar_links" href="#">Incio</a></li>
-            <li><a class="nav_bar_links" href="#">Contato</a></li>
-            <li><a class="nav_bar_links" href="#">Esporte</a></li>
-            <li><a class="nav_bar_links" href="#politica">Politica</a></li>
-            <li><a class="nav_bar_links" href="#">Tecnologia</a></li>
+            <li><a class="nav_bar_links" href="#noticias">Incio</a></li>
+            <li><a class="nav_bar_links" href="#mais_lidas">Mais Lidas</a></li>
+            <li><a class="nav_bar_links" href="#ultimas_noticias">Ultimas Noticias</a></li>
+            <li><a class="nav_bar_links" href="#evento">Evento</a></li>
+            <li><a class="nav_bar_links" href="#contato">Contato</a></li>
           </ul>
         </nav>
       </header>
-      <main class="noticias"></main>
+      <main id="noticias" class="noticias"></main>
       <div class="mapa">
-        <h2>Mapa</h2>
-        <div style="width: 100%">
+        <h2 id="evento">Local do Evento</h2>
+        <div style="width: 100% ">
           <iframe
             title="Mapa da Nossa Cidade"
             loading="lazy"
-            width="100%"
+            width="90%"
             height="400"
             frameborder="0"
             scrolling="no"
@@ -113,7 +113,69 @@
           >
         </div>
       </div>
-      <footer></footer>
+      <footer id="Contato">
+        <div class="rodape-conteudo">
+          <div class="rodape-identidade">
+            <h2>Portal Notícia de Guanambi</h2>
+            <p>Últimas notícias de Guanambi e região.</p>
+          </div>
+
+          <div id="contato" class="rodape-contato">
+            <h3>Entre em contato</h3>
+            <a href="mailto:gabriel.msantos7@hotmail.com"
+              >gabriel.msantos7@hotmail.com</a
+            >
+          </div>
+
+          <div class="rodape-redes-sociais">
+            <h3>Siga nossas redes</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/ms7biel/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  ><img
+                    class="icons"
+                    loading="lazy"
+                    src="./src/img/instagram.svg"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://youtu.be/dQw4w9WgXcQ?si=PCIw6rgfkt1FoouV"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                  ><img
+                    class="icons"
+                    loading="lazy"
+                    src="./src/img/youtube.svg"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/msantos7gabriel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                  ><img
+                    class="icons"
+                    loading="lazy"
+                    src="./src/img/github.svg"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="rodape-inferior">
+          <p>Desenvolvido por Gabriel Montalvão Santos</p>
+        </div>
+      </footer>
     </div>
 
     <script src="./src/js/noticias.js"></script>
