@@ -253,6 +253,11 @@ main .titulo {
   place-items: center;
   margin: 0 10vh 5vh;
 }
+.mapa div{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
 .mapa h2 {
   padding-bottom: 2.5vh;
 }
@@ -263,7 +268,77 @@ main .titulo {
 
 footer {
   min-width: 100vw;
-  min-height: 60px;
   background-color: var(--cor-primaria);
+  color: #fff;
+  padding: 48px 10vh 20px;
+}
+
+.rodape-conteudo {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.rodape-identidade h2 {
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  margin-bottom: 12px;
+}
+
+.rodape-identidade p,
+.rodape-contato a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.rodape-contato h3,
+.rodape-redes-sociais h3 {
+  font-size: 1rem;
+  margin-bottom: 14px;
+}
+
+.rodape-contato a {
+  transition: color 0.2s ease-in-out;
+  overflow-wrap: anywhere;
+}
+
+.rodape-contato a:hover {
+  color: var(--cor-secundaria);
+}
+
+.rodape-redes-sociais ul {
   display: flex;
+  gap: 18px;
+  padding: 0;
+}
+
+.rodape-redes-sociais .icons {
+  height: 26px;
+  width: 26px;
+}
+
+.rodape-inferior {
+  max-width: 1200px;
+  margin: 36px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: var(--fonte-pequena);
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  footer {
+    padding: 36px 24px 18px;
+  }
+
+  .rodape-conteudo {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .rodape-inferior {
+    margin-top: 28px;
+  }
 }

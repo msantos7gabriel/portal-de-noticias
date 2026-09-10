@@ -155,7 +155,7 @@ listaNoticias.innerHTML += noticiaPrimária
 
 listaNoticias.innerHTML += `
   <div class="titulo">
-    <h2>Top 5 mais lidas da semana</h2>
+    <h2 id="mais_lidas">Top 5 mais lidas da semana</h2>
   </div>
 `;
 
@@ -180,7 +180,7 @@ if (listaNoticias) {
 if (listaNoticias) {
   listaNoticias.innerHTML += `
     <div class="titulo">
-      <h2>Últimas notícias</h2>
+      <h2 id="ultimas_noticias">Últimas notícias</h2>
     </div>
     <div class="ultimas_noticias_grid">
       ${ultimasNoticias
